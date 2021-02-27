@@ -1,5 +1,6 @@
 <template>
   <div class="view">
+    <p>{{projects}}</p>
       <h1 class="title"><span>{{project.project}}</span></h1> 
        <h3>{{project.description}}</h3>
       <h1 id="technologiesTitle">Tecnologías:</h1>
@@ -45,7 +46,6 @@ import { Hooper, Slide, Navigation as HooperNavigation,
 import "hooper/dist/hooper.css";
 import axios from 'axios'
 import json from './../profile.json'
-import Axios from 'axios';
 
 export default {
   name: "ListProjects",
@@ -60,24 +60,9 @@ export default {
        hooperSettings: {
          centerMode: true
        },
-      myJson: json,
-      project: null,
+      project: json.projects.find((p) => p.id === this.$route.params.id)
     }
   },
-  methods: {
-    async getProject() {
-      try{
-        const response = await axios.get(`${process.env.VUE_APP_HOST}/projects/` + this.$route.params.id);
-      console.log(response)
-      this.project = response.data;
-      } catch(error) {
-        console.error(error);
-      }
-    }
-  },
-  async created() {
-    this.getProject();
-  }
 }
 </script>
 
