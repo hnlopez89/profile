@@ -1,0 +1,109 @@
+{
+    "projects": [{
+        "id": "1",
+        "project": "tempo",
+        "description": "Plataforma digital de reservas online orientada a negocios tradicionales como peluquerías o restaurantes.",
+        "technologies": [
+            {"technology": "html5_logo.png"},
+            {"technology": "css3.png"},
+            {"technology": "js.png"},
+            {"technology": "vuejs.png"},
+            {"technology": "nodejs.png"},
+            {"technology": "sql.png"}
+        ],
+        "pictures": 
+            [
+                {"picture":"cuota de mercado.jpg"},
+                {"picture":"evo reservas.jpg"},
+                {"picture":"occDiaria.jpg"},
+                {"picture":"occMensual.jpg"}
+        ]
+        ,
+        "video": "https://www.youtube.com/embed/B0NGpVtJDBI",
+        "functionalities": [
+            {
+                "idF": "1",
+                "name": "Cuota de mercado",
+                "description": "Obtén información capital para tu negocio en relación a los competidores de tu zona",
+                "picture": ["cuota de mercado.jpg", "evo reservas.jpg"],
+                "video": "https://www.youtube.com/embed/Yf0VCKkj8LI"
+            },
+            {
+                "idF": "2",
+                "name": "Gestor de reservas práctico e intuitivo.",
+                "description": "Rápido acceso a la información relevante de usuarios y reservas. En la demostración, hay más de 10.000 reservas en la base de datos",
+                "picture": ["cuota de mercado.jpg", "evo reservas.jpg"],
+                "video": "https://www.youtube.com/embed/HJEvXEzD_4g"
+            },
+            {
+                "idF": "3",
+                "name": "Consulta de listado de ocupación diario y mensual por parte del negocio.",
+                "description": "Obtén los datos del volumen de trabajo de tu negocio y la disponibilidad del día en tiempo real.",
+                "picture": ["cuota de mercado.jpg", "evo reservas.jpg"],
+                "video": "https://www.youtube.com/embed/HJEvXEzD_4g"
+            },
+            {
+                "name": "Panel de control de usuario, negocio y administrador."
+            },
+            {
+                "name": "Búsqueda de disponibilidad horaria en base a ubicación, categoría de negocio, una hora determinada o bien mediante el nombre exacto del negocio."
+            },
+            {
+                "name": "Posibilidad de modificación de reserva mediante nueva búsqueda horaria."
+            },
+            {
+                "name": "Puntuación de reservas mediante estrellas y comentario adicional opcional."
+            },
+            {
+                "name": "Visión de reservas históricas y futuras mediante buscador con múltiples campos."
+            },
+            {
+                "name": "Horario de apertura y cierre para los negocios, incluyendo la posibilidad de añadir días de cierre en la semana."
+            },
+            {
+                "name": "Visualización de perfil de negocio con variedad de fotografías y puntuación media de las reservas de sus clientes."
+            },
+            {
+                "name": "Posibilidad de escoger duración de las reservas entre 30 minutos ó 1 hora."
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "project": "luis",
+        "description": "dame pan e chamame can",
+        "technologies": [
+            {"technology": "vuejs.png"},
+            {"technology": "html5_logo.png"},
+            {"technology": "css3.png"},
+            {"technology": "js.png"},
+            {"technology": "nodejs.png"},
+            {"technology": "sql.png"}
+        ],
+        "pictures": 
+            ["picture" ,"picture"]
+        ,
+        "video": "video",
+        "functionalities": [
+                {
+                "idF": "2",
+                "name": "cuotademercado",
+                "description": "text",
+                "picture": ["picture", "picture"],
+                "video": "video"
+                },
+                {
+                    "idF": "3",
+                    "name": "Test",
+                    "video": "video",
+                    "description": "text"
+
+                },
+                {
+                    "name": "Panel de control de usuario, negocio y administrador."
+                }
+        
+            ]
+        }
+    ]
+}

@@ -1,0 +1,410 @@
+/********************* APP.VUE *******************/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;900&display=swap");
+
+#app {
+	font-family: Avenir, Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-align: center;
+	color: darkslategray;
+	background-image: url(../assets/1017.png);
+}
+
+h1 {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 2.5rem;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style: none;
+}
+
+button,
+a#email,
+#submit {
+	border-radius: 20% / 50%;
+	padding: 1rem;
+	background-color: white;
+	color: darkslategray;
+	text-decoration: none;
+	font-weight: bold;
+	border: 0;
+	width: auto;
+}
+
+button:hover {
+	background-color: goldenrod;
+	filter: contrast(0%);
+}
+
+h1.title span {
+	margin-top: 2rem;
+	margin-bottom: 3rem;
+	position: relative;
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 10px;
+	border-bottom: 1px solid goldenrod;
+}
+
+h1.title span:after {
+	content: "";
+	position: absolute;
+	bottom: calc(-100% - 1px);
+	margin-left: -10px;
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	border-top: 1px solid goldenrod;
+}
+.view {
+	padding-top: 13rem;
+	min-height: 60vh;
+	margin: 0 12rem;
+}
+
+.father {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	z-index: 1;
+}
+/****************** Menu.vue *****************/
+
+#header {
+	background-color: darkslategray;
+	background: linear-gradient(rgba(7, 7, 7, 0.65), rgba(7, 7, 7, 0.65));
+	justify-content: space-between;
+	align-items: center;
+	height: 13rem;
+	position: fixed;
+	width: 100%;
+}
+
+#nav {
+	font-size: 1.2rem;
+	margin-bottom: 3rem;
+	padding: 30px;
+}
+
+#nav a {
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	margin: 0.5rem;
+}
+
+#nav a:hover {
+	color: goldenrod;
+}
+
+#nav a.router-link-exact-active {
+	color: goldenrod;
+	text-decoration: underline;
+}
+
+img#logo {
+	display: inline-block;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 15rem;
+	margin-left: 1.5rem;
+}
+
+/**************** FOOTER *****************/
+
+#foot {
+	padding: 3rem;
+	background-color: darkslategray;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#foot > div {
+	margin: 1rem 2rem;
+}
+
+ul {
+	padding: 0;
+}
+h3 {
+	text-align: initial;
+}
+#social {
+	justify-content: space-evenly;
+}
+#social > li img {
+	height: 03rem;
+	width: auto;
+}
+
+#social > li img:hover {
+	filter: contrast(0%);
+}
+
+#social > li {
+	margin: 1rem 1rem 0 0;
+	list-style: none;
+}
+
+#contact {
+	margin-bottom: 3rem;
+}
+
+#contact > li {
+	list-style: none;
+	text-align: initial;
+}
+
+a#email:hover,
+#contactButton:hover {
+	background-color: grey;
+}
+
+/*********** ABOUT ************/
+
+img.tools {
+	width: 10rem;
+	height: auto;
+	display: inline-block;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#links {
+	margin-top: 2.5rem;
+	justify-content: space-evenly;
+}
+
+li {
+	margin: 1rem 0;
+	font-size: 1.2rem;
+}
+#competences {
+	background-color: white;
+	padding: 3rem;
+	border: solid 0.1rem coral;
+	border-radius: 1rem;
+	margin: 1rem;
+}
+#competences > h3 {
+	margin: 3.5rem 0 1.5rem 0;
+	font-size: 1.5rem;
+}
+#js,
+#node {
+	width: 10rem;
+}
+#main {
+	background-color: darkslategray;
+	margin: 3rem 0;
+	justify-content: space-around;
+	height: auto;
+}
+
+#main > div {
+	color: white;
+	padding: 3rem 2rem;
+	text-align: left;
+}
+
+#main > div p {
+	margin: 2rem 1rem;
+	font-size: 1.3rem;
+}
+
+#main > img {
+	object-fit: cover;
+	width: 35%;
+	height: auto;
+}
+
+#toolDiv {
+	margin-bottom: 3rem;
+}
+
+/**************** CONTACT ****************/
+
+#contactDiv {
+	justify-content: space-evenly;
+	padding: 3rem;
+}
+
+#contactPicture {
+	width: 40rem;
+	height: auto;
+}
+
+#contactForm {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 30rem;
+}
+
+#contactForm > label {
+	margin-bottom: 0.5rem;
+	text-align: left;
+	font-size: large;
+	font-weight: bold;
+}
+
+#contactForm > input {
+	padding: 0.75rem;
+	margin-bottom: 2rem;
+	border: 0.1rem solid lightgray;
+}
+
+textarea {
+	border: 0.1rem solid lightgray;
+}
+
+#contactButton {
+	margin-top: 2rem;
+	background-color: black;
+	color: white;
+	font-size: large;
+}
+
+#submit {
+	background-color: black;
+	color: white;
+	font-size: large;
+	padding: 1rem 2rem;
+}
+
+/************** home ********************/
+
+header {
+	background: linear-gradient(rgba(41, 53, 54, 0.8), rgba(41, 53, 54, 0.8)),
+		url(../assets/portada.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: white;
+	height: 30rem;
+	padding: 5rem;
+	padding-bottom: 0;
+}
+
+header > div {
+	margin-top: 10rem;
+}
+
+header > div > h1 {
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+}
+
+header > div > h3 {
+	color: lightgrey;
+	text-align: center;
+}
+
+/******************** LISTADOS *******************************/
+
+textarea {
+	border: 0;
+	background-color: transparent;
+	overflow: auto;
+	outline: none;
+	box-shadow: none;
+	resize: none;
+	font-family: "Montserrat", sans-serif;
+	font-size: 1rem;
+	line-height: 150%;
+	height: 6rem;
+}
+
+#functionLists {
+	padding: 1rem 2rem;
+	margin: 2rem 0rem;
+	background-color: darkslategray;
+	color: white;
+	border-radius: 1rem;
+}
+
+.functions {
+	text-align: left;
+	margin: 0.6rem;
+	font-size: 1.1rem;
+}
+
+/*********************** CARRUSEL ***********************/
+
+section.hooper {
+	height: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: cover;
+	margin-bottom: 3rem;
+}
+
+ul.hooper-track {
+	display: flex;
+	align-items: center;
+}
+
+.imgCarrousel {
+	width: 100%;
+}
+button.hooper-next,
+button.hooper-prev {
+	background-color: white;
+	padding: 0.5rem;
+	border-radius: 5px;
+}
+
+button.hooper-next:hover,
+button.hooper-prev:hover {
+	background-color: darkslategray;
+}
+
+/********************** PROYECTOS ************************/
+
+#projectsWelcome {
+	max-width: 100vh;
+	height: 30rem;
+}
+
+h3 {
+	text-align: center;
+}
+
+#technologiesTitle {
+	margin: 1rem;
+	margin-top: 3rem;
+}
+
+#projectTechnologies {
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 35rem;
+	margin: auto;
+	margin-bottom: 2rem;
+}
+
+.projectTechnology {
+	width: auto;
+	height: 70px;
+}
+
+iframe {
+	margin: 3rem;
+}
+
+/********************* FUNCIONALIDADES ******************/
