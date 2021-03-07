@@ -32,14 +32,14 @@
                 "idF": "2",
                 "name": "Gestor de reservas práctico e intuitivo.",
                 "description": "Rápido acceso a la información relevante de usuarios y reservas. En la demostración, hay más de 10.000 reservas en la base de datos",
-                "picture": ["cuota de mercado.jpg", "evo reservas.jpg"],
+                "picture": ["registroReservas.png", "reservasListados.png", "vistaReserva.png"],
                 "video": "https://www.youtube.com/embed/HJEvXEzD_4g"
             },
             {
                 "idF": "3",
-                "name": "Consulta de listado de ocupación diario y mensual por parte del negocio.",
+                "name": "Consulta de ocupación diaria y mensual.",
                 "description": "Obtén los datos del volumen de trabajo de tu negocio y la disponibilidad del día en tiempo real.",
-                "picture": ["cuota de mercado.jpg", "evo reservas.jpg"],
+                "picture": ["occDiaria.jpg", "occMensual.jpg"],
                 "video": "https://www.youtube.com/embed/HJEvXEzD_4g"
             },
             {
@@ -67,43 +67,139 @@
                 "name": "Posibilidad de escoger duración de las reservas entre 30 minutos ó 1 hora."
             }
         ]
-    },
-    {
-        "id": "2",
-        "project": "luis",
-        "description": "dame pan e chamame can",
-        "technologies": [
-            {"technology": "vuejs.png"},
-            {"technology": "html5_logo.png"},
-            {"technology": "css3.png"},
-            {"technology": "js.png"},
-            {"technology": "nodejs.png"},
-            {"technology": "sql.png"}
+    }
+    ],
+    "profile": {
+        "softSkills":[
+            "Mentalidad analítica",
+            "Autonomía y eficiencia",
+            "Trabajo en remoto",
+            "Desarrollo de especificaciones y requisitos de producto",
+            "Aplicación de conocimientos del sector hostelero",
+            "Desarrollo de API REST"
         ],
-        "pictures": 
-            ["picture" ,"picture"]
-        ,
-        "video": "video",
-        "functionalities": [
-                {
-                "idF": "2",
-                "name": "cuotademercado",
-                "description": "text",
-                "picture": ["picture", "picture"],
-                "video": "video"
-                },
-                {
-                    "idF": "3",
-                    "name": "Test",
-                    "video": "video",
-                    "description": "text"
+        "challenges": 
+        "Este ha sido el primer gran proyecto que he hecho por mi cuenta, y los retos superados fueron muy diversos. La principal complejidad de este proyecto es el hecho de trabajar con horas, lo que dificulta la comprobación de disponibilidades. Hallar la ocupación mensual fue complejo dado el escalón formativo en el que me encontraba. Merece mención el cumplimiento de las especificaciones en tiempo y forma.",
+        "experiences": [
+            {
+                "id": "1",
+                "category": "project",
+                "title": "Mi página web personal",
+                "location": "https://hugotechandtravel.netlify.app/",
+                "description": "Página de elaboración propia como demostración de habilidades y experiencias.",                
+                "functionalities": [
+                    "Mostrar experiencias y formación de forma dinámica",
+                    "Acceso a diferentes redes sociales, descarga de CV y contacto por email",
+                    "Informar sobre los diferentes proyectos realizados"
+                ],
+                "technologies": [
+                    "html5_logo.png",
+                    "css3.png",
+                    "vuejs.png"
+                ]
+            },
+            {
+                "id": "2",
+                "category": "experience",
+                "title": "Profesor Auxiliar de programación web",
+                "location": "Vigo",
+                "date": "Noviembre 2020 - Actualmente",
+                "description": "Participación de forma activa y proactiva en el correcto aprendizaje de programación web por parte de los alumnos",
+                "tasks":[
+                    "Proposición de ejercicios para certificar conocimientos",
+                    "Resolución de dudas",
+                    "Seguimiento de ejecución de proyectos finales",
+                    "Realización de tutorías"
+                ],
+                "company": "Hack a BOSS",
+                "coordenadas": "39.99709190915876, 3.826813530685045",
+                "pictures": [
+                    "picture1"
+                ]
+            },
+            {
+                "id": "3",
+                "category": "project",
+                "title": "Tempo",
+                "date": "Junio 2020 - Septiembre 2020",
+                "description" : "Plataforma digital de reservas online orientada a negocios tradicionales como peluquerías o restaurantes.",
+                "functionalities": [
+                    "Obtén información capital para tu negocio como la cuota de mercado en relación a los competidores de tu zona",
+                    "Gestor de reservas práctico e intuitivo.",
+                    "Consulta de listado de ocupación diario y mensual por parte del negocio.",
+                    "Búsqueda de disponibilidad horaria en base a ubicación, categoría de negocio, una hora determinada o bien mediante el nombre exacto del negocio.",
+                    "Horario de apertura y cierre para los negocios, incluyendo la posibilidad de añadir días de cierre en la semana.",
+                    "Posibilidad de escoger duración de las reservas entre 30 minutos ó 1 hora."
+                ],
+                "pictures": [
+                    "picture1"
+                ],
+                "technologies": [
+                    "html5_logo.png",
+                    "css3.png",
+                    "js.png",
+                    "nodejs-plain.svg",
+                    "vuejs.png",
+                    "sql.png"
+                ]
+            },
+            {
+                "id": "4",
+                "category": "academic",
+                "title": "Bootcamp de programación web full stack",
+                "location": "A Coruña",
+                "date": "Febrero 2020 - Septiembre 2020",
+                "description" : "Formación intensiva de 400 horas en bootcamp de programación web full stack"
 
-                },
-                {
-                    "name": "Panel de control de usuario, negocio y administrador."
-                }
-        
-            ]
-        }
-    ]
+            },
+            {
+                "id": "5",
+                "category": "academic",
+                "title": "MBA Administración y dirección de empresas",
+                "date": "Febrero 2020 - Junio 2021",
+                "company": "EAE Business School de Barcelona"
+            },
+            {
+                "id": "6",
+                "category": "experience",
+                "title": "Director de Aparthotel Ferrer Skyline****",
+                "location": "Ciutadella de Menorca",
+                "date": "Febrero 2019- Noviembre 2019",
+                "description": "Gestion de aparthotel, con una plantilla de más de 50 empleados dando servicio a más de 600 huespedes repartidos entre los 160 apartamenos de lujo del establecimiento. Encargado del servicio y de alcanzar los objetivos presupuestarios y de calidad.",                
+                "tasks":[
+                    "Gestión de equipos",
+                    "Atención al detalle",
+                    "Gestión de quejas y reclamaciones",
+                    "Control presupuestario",
+                    "Implantación de los estandares de calidad",
+                    "Asignación de tareas y responsabilidades a los jefes de departamento.",
+                    "Anfitrión y embajador del establecimiento",
+                    "Asegurar los estandares"
+                ],
+                "company": "Ferrer Hotels",
+                "coordenadas": "39.99709190915876, 3.826813530685045",
+                "pictures": [
+                    "picture1"
+                ]
+            }
+        ],
+        "languages": [
+            {
+            "language": "gallego.png",
+            "level": "10"
+            },
+            {
+            "language": "espana.png",
+            "level": "10"
+            },
+            {
+            "language": "reino-unido.png",
+            "level": "7.5"
+            },
+            {
+            "language": "francia.png",
+            "level": "6.5"
+            }
+        ]
+    }
 }

@@ -10,9 +10,9 @@
           <label for="email">Correo electrónico:</label>
           <input type="text" name="mail">
           <label for="text">Mensaje:</label>
-          <input type="text" name="comment" cols="60" rows="10">
+          <input id="comment" type="text" name="comment" cols="60" rows="10">
           <div>
-          <input id="submit" type="submit" value="submit">
+          <input id="submit" type="submit" value="Enviar">
           </div>
       </form>
 

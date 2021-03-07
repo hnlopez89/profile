@@ -2,10 +2,12 @@
   <div class="view">
       <h1 class="title"><span>{{functionality.name}}</span></h1> 
        <h3>{{functionality.description}}</h3>
-      <iframe width="620" height="315"
-      frameborder="0" allowfullscreen
-        :src="functionality.video">
-      </iframe>
+       <div id="containterIframe">
+        <iframe width="620" height="315"
+        frameborder="0" allowfullscreen
+          :src="functionality.video">
+        </iframe>
+       </div>
         <hooper
           :progress="true"
           :autoPlay="true"

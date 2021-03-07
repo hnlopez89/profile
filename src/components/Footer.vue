@@ -4,7 +4,7 @@
       <h3>Redes Sociales:</h3>
         <ul class="father" id="social">
           <li>
-            <a target="_blank" href="mailto:hnlopez89@gmail.com?Subject=Contacto%20Tempo%20">
+            <a target="_blank" href="https://www.facebook.com/esehugo">
               <img src="../assets/icons/facebook.png" />
             </a>
           </li>
@@ -27,7 +27,7 @@
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://www.instagram.com/nogueira.hugo/">
+            <a target="_blank" href="https://github.com/hnlopez89/">
               <img src="../assets/icons/github.png" />
             </a>
           </li>

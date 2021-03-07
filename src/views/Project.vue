@@ -9,10 +9,12 @@
           <img class="projectTechnology" :src="require(`@/assets/icons/${technology.technology}`)" alt="foto">
           </div>
         </div>
+        <div id="containterIframe">
         <iframe width="620" height="315"
         frameborder="0" allowfullscreen
             :src="project.video">
         </iframe>
+        </div>
          <hooper
       :progress="true"
       :autoPlay="true"

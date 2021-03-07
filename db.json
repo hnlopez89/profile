@@ -15,5 +15,69 @@
   ],
   "profile": {
     "name": "typicode"
-  }
-}
+  },
+  
+    "id": "1",
+    "category": "experience",
+    "title": "Director de Aparthotel Ferrer Skyline****",
+    "location": "Ciutadella de Menorca",
+    "date": "Febrero 2019- Noviembre 2019",
+    "description2": "Gestion de aparthotel, con una plantilla de más de 50 empleados dando servicio a más de 600 huespedes repartidos entre los 160 apartamenos de lujo del establecimiento. Encargado del servicio y de alcanzar los objetivos presupuestarios y de calidad.",                
+    "tasks":[
+        "Gestión de equipos",
+        "Atención al detalle",
+        "Gestión de quejas y reclamaciones",
+        "Control presupuestario",
+        "Implantación de los estandares de calidad",
+        "Asignación de tareas y responsabilidades a los jefes de departamento. Delegación",
+        "Anfitrión y embajador del establecimiento",
+        "Asegurar los estandares"
+    ],
+    "functionalities2": [
+        "function",
+        "function2"
+    ],
+    "company": "Ferrer Hotels",
+    "coordenadas": "39.99709190915876, 3.826813530685045",
+    "pictures2": [
+        "picture1"
+    ],
+    "technologies2": [
+        "vuejs"
+    ],
+        "id2": "2",
+        "project": "luis",
+        "description": "dame pan e chamame can",
+        "technologies": [
+            {"technology": "vuejs.png"},
+            {"technology": "html5_logo.png"},
+            {"technology": "css3.png"},
+            {"technology": "js.png"},
+            {"technology": "nodejs.png"},
+            {"technology": "sql.png"}
+        ],
+        "pictures": 
+            ["picture" ,"picture"]
+        ,
+        "video": "video",
+        "functionalities": [
+                {
+                "idF": "2",
+                "name": "cuotademercado",
+                "description": "text",
+                "picture": ["picture", "picture"],
+                "video": "video"
+                },
+                {
+                    "idF": "3",
+                    "name": "Test",
+                    "video": "video",
+                    "description": "text"
+
+                },
+                {
+                    "name": "Panel de control de usuario, negocio y administrador."
+                }
+        
+            ]
+        }
