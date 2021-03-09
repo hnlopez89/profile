@@ -181,6 +181,74 @@
                 "pictures": [
                     "picture1"
                 ]
+            },
+            {
+                "id": "7",
+                "category": "experience",
+                "title": "Subdirector de Hotel en RIU Tikida Palace *****",
+                "location": "Agadir",
+                "date": "Noviembre 2017- Noviembre 2018",
+                "description": "Gestion de hotel 5 estrellas, con una plantilla de más de 250 empleados dando servicio a más de 1200 huespedes repartidos entre las 444 habitaciones del establecimiento. Asistiendo en el control del servicio y de alcanzar los objetivos presupuestarios y de calidad.",                
+                "tasks":[
+                    "Gestión de equipos",
+                    "Atención al detalle",
+                    "Gestión de quejas y reclamaciones",
+                    "Control presupuestario",
+                    "Implantación de los estandares de calidad",
+                    "Asignación de tareas y responsabilidades a los jefes de departamento.",
+                    "Anfitrión y embajador del establecimiento",
+                    "Asegurar los estandares"
+                ],
+                "company": "RIU",
+                "coordenadas": "39.99709190915876, 3.826813530685045",
+                "pictures": [
+                    "picture1"
+                ]
+            },
+            {
+                "id": "8",
+                "category": "experience",
+                "title": "Revenue Manager en IBB Hotels Collection",
+                "location": "Malta",
+                "date": "Octubre 2016 - Octubre 2017",
+                "description": "Analizar la situación inicial de Hoteles identificando estrategias para maximizar el Revenue considerando particularidades de un entorno dinámico y competidores. Pronosticar niveles de demanda, basados en análisis de datos históricos, evolución de la demanda, contexto y competidores.",                
+                "tasks":[
+                    "Análisis y control de tendencias de mercado",
+                    "gestión de inventario de habitaciones",
+                    "maximización de ingresos",
+                    "Control presupuestario",
+                    "KPI",
+                    "Seguimiento de indicadores entre ellos ADR, Ocupación, Revenue, Cancelaciones"
+                ],
+                "company": "IBB Hotels Collection",
+                "coordenadas": "39.99709190915876, 3.826813530685045",
+                "pictures": [
+                    "picture1"
+                ]
+            },
+            {
+                "id": "9",
+                "category": "experience",
+                "title": "Director de Hotel en IBB Paradis Blau ***",
+                "location": "Cala en Porter - Menorca",
+                "date": "Abril 2015 - Octubre 2016",
+                "description": "Gestion de establecimiento turístico de 61 habitaciones. Encargado de arrancar un servicio, alcanzar una estabilidad presupuestaria y mejorar la reputación",                
+                "tasks":[
+                    "Contratación de la plantilla y proveedores que dan servicio al establecimiento",
+                    "Gestión de equipos",
+                    "Atención al detalle",
+                    "Gestión de quejas y reclamaciones",
+                    "Control presupuestario",
+                    "Implantación de los estandares de calidad",
+                    "Asignación de tareas y responsabilidades a los jefes de departamento.",
+                    "Anfitrión y embajador del establecimiento",
+                    "Asegurar los estandares"
+                ],
+                "company": "IBB Hotels Collection",
+                "coordenadas": "39.99709190915876, 3.826813530685045",
+                "pictures": [
+                    "picture1"
+                ]
             }
         ],
         "languages": [
