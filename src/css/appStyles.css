@@ -234,16 +234,17 @@ li {
 }
 
 #main {
-	background: linear-gradient(
+	/* 	background: linear-gradient(
 			rgba(241, 253, 254, 0.6),
 			rgba(241, 253, 254, 0.6)
 		),
-		url("../assets/me.jpg");
+		url("../assets/me.jpg"); */
+	background-color: darkslategray;
 	background-size: contain;
 	margin: 3rem 0;
 	justify-content: space-around;
 	height: auto;
-	color: darkslategray;
+	color: white;
 }
 
 #main > div {
@@ -255,13 +256,15 @@ li {
 	margin: 2rem 1rem;
 	font-size: 1rem;
 	font-weight: 700;
+	text-align: justify;
 }
 
 #main > img {
 	object-fit: cover;
 	width: 100%;
 	height: auto;
-	display: none;
+	/* 	display: none;
+ */
 }
 
 #toolDiv {
@@ -467,6 +470,11 @@ textarea {
 	height: 6rem;
 }
 
+h2 {
+	text-align: justify;
+	padding: 1rem;
+}
+
 #functionLists {
 	padding: 1rem 2rem;
 	margin: 2rem auto;
@@ -502,6 +510,10 @@ button#seeProject:hover {
 	color: white;
 	padding: 1rem;
 	margin: 1rem auto;
+}
+
+#functionatility li > h4 {
+	text-align: justify;
 }
 
 #functionatility > li button {

@@ -37,10 +37,10 @@
       <h3>Contacto:</h3>
         <ul id="contact">
             <li>
-                    &#x1F4E7; email: hnlopez89@gmail.com
+                    &#x1F4E7; hnlopez89@gmail.com
             </li>
             <li>
-                &#x260E; Telf: +34 652 20 09 31
+                &#x260E; +34 652 20 09 31
             </li>
         </ul>
             <a id="email" target="_blank" href="mailto:hnlopez89@gmail.com?Subject=Contacto%20Tempo%20">
