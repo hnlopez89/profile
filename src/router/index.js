@@ -1,6 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
+import Blogs from "../blog.json";
 
 Vue.use(VueRouter);
 
@@ -45,11 +46,11 @@ const routes = [
 		name: "Blog",
 		component: () => import("../views/Blog.vue"),
 	},
-	{
-		path: "/gentes_de_martes/entrada/:id",
-		name: "Entry",
-		component: () => import("../views/Entry.vue"),
-	},
+	...Blogs.entries.map((entry) => ({
+		path: `/gentes_de_martes/entrada/${entry.file}`,
+		name: `${entry.file}`,
+		component: () => import(`../content/${entry.file}`),
+	})),
 	{
 		path: "*",
 		name: "Error",

@@ -1,5 +1,0 @@
----
-
-title: My introduction page
-
----

@@ -8,7 +8,7 @@
       </div>
     </header>
 
-    <section >
+    <section class="welcome">
       <h1 class="title"><span>Inicio:</span></h1> 
       <div id="intro">
 
@@ -31,7 +31,7 @@
       </div>
     </section>
 
-    <section>
+    <section class="timelineSection">
       <h1 class="title"><span>Trayectoria:</span></h1> 
     <div class="timeline">
     <div

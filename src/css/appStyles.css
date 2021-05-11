@@ -98,7 +98,7 @@ h1.title span:after {
 	background: linear-gradient(rgba(7, 7, 7, 0.65), rgba(7, 7, 7, 0.65));
 	justify-content: space-between;
 	align-items: center;
-	height: 13rem;
+	height: 15rem;
 	position: fixed;
 	width: 100%;
 	display: none;
@@ -746,6 +746,111 @@ h3 {
 	height: 2rem;
 }
 
+/********************** BLOG ***************************/
+#blog {
+	padding-top: 4rem;
+}
+
+.blogList {
+	margin: 0 1rem;
+}
+
+.blogList > li > a {
+	display: flex;
+	flex-direction: column;
+	justify-content: stretch;
+	text-decoration: none;
+}
+
+.blogList > li > a > img {
+	display: none;
+	margin-right: 5rem;
+	max-height: 15rem;
+	max-width: 15rem;
+}
+
+.blogList > li > a > div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	color: darkslategrey;
+}
+
+.blogList > li > a > div > h1 {
+	font-size: 1.7rem;
+}
+
+.blogList > li > a > div > p {
+	margin: 1rem 0;
+	font-size: 1.2rem;
+}
+
+#introBlog {
+	text-align: left;
+}
+
+#date {
+	text-align: right;
+	font-style: oblique;
+}
+
+#salto {
+	background-color: darkslategrey;
+	height: 0.1rem;
+	margin-bottom: 1rem;
+}
+
+/***************** ENTRADAS DE BLOG  *********************/
+section:not(.timelineSection, .welcome) {
+	max-width: 80rem;
+	padding: 3rem;
+	padding-top: 4rem;
+	margin: auto;
+	margin-bottom: 3rem;
+}
+section:not(.timelineSection, .welcome) > p {
+	text-align: left;
+	font-size: 1.5rem;
+	margin: 1.5rem 0;
+}
+
+section:not(.timelineSection, .welcome) > :last-child {
+	margin-top: 5rem;
+	text-align: center;
+}
+
+section:not(.timelineSection, .welcome) > :nth-child(0n + 2) {
+	text-align: center;
+	margin-bottom: 4rem;
+}
+
+em {
+	display: block;
+	font-size: 1rem;
+}
+
+section:not(.timelineSection, .welcome) > p > a {
+	border-radius: 20% / 50%;
+	padding: 1.3rem;
+	background-color: darkslategray;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	border: 0;
+	font-size: 1.2rem;
+}
+
+section:not(.timelineSection, .welcome) > p > a:hover {
+	background-color: goldenrod;
+	color: darkslategray;
+}
+
+section:not(.timelineSection, .welcome) > p > img {
+	max-width: 100%;
+	max-height: 30rem;
+	text-align: center;
+}
+
 @media (min-width: 750px) {
 	.father {
 		flex-direction: row;
@@ -933,6 +1038,26 @@ h3 {
 		font-weight: 800;
 		color: black;
 	}
+
+	.blogList > li > a {
+		flex-direction: row;
+	}
+
+	.blogList > li > a > img {
+		display: inherit;
+	}
+
+	.blogList > li > a > div {
+		margin-right: 3rem;
+	}
+
+	section:not(.timelineSection, .welcome) {
+		padding-top: 16rem;
+	}
+
+	#blog {
+		padding-top: 16rem;
+	}
 }
 
 @media (min-width: 1200px) {
@@ -946,5 +1071,8 @@ h3 {
 
 	#nav {
 		flex-direction: row;
+	}
+	section:not(.timelineSection, .welcome) > p > img {
+		max-height: 50rem;
 	}
 }
