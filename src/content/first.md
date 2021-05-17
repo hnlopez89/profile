@@ -27,4 +27,4 @@ Me pregunto también sí uno se ha de considerar afortunado por tener este prism
 Querer ver la realidad o vivir en la ignorancia. A veces, díficil decisión.
 
 
-[volver al blog](http://localhost:8080/#/gentes_de_martes/)
+[volver al blog](https://hugotechandtravel.netlify.app/#/gentes_de_martes/)

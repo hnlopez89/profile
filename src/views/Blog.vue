@@ -5,7 +5,9 @@
           <li>
                 <router-link  
                 :to="{name:entry.file}">
-                <img :src="require(`@/assets/blog/${entry.img}`)" alt="">
+                <div id="entryPic">
+                    <img :src="require(`@/assets/blog/${entry.img}`)" alt="">
+                </div>
                 <div> 
                     <h1>{{entry.title}}</h1>
                     <p id="introBlog">{{entry.intro}}</p>

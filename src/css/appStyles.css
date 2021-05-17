@@ -762,11 +762,18 @@ h3 {
 	text-decoration: none;
 }
 
-.blogList > li > a > img {
-	display: none;
+.blogList > li > a > div#entryPic {
 	margin-right: 5rem;
-	max-height: 15rem;
 	max-width: 15rem;
+	max-height: 15rem;
+	object-fit: cover;
+}
+
+.blogList > li > a > div > img {
+	display: none;
+	height: 15rem;
+	width: 15rem;
+	object-fit: cover;
 }
 
 .blogList > li > a > div {
@@ -1043,7 +1050,7 @@ section:not(.timelineSection, .welcome) > p > img {
 		flex-direction: row;
 	}
 
-	.blogList > li > a > img {
+	.blogList > li > a > div > img {
 		display: inherit;
 	}
 
@@ -1062,9 +1069,10 @@ section:not(.timelineSection, .welcome) > p > img {
 		padding: 3rem;
 	}
 
-	section:not(.timelineSection, .welcome) > p {
-		text-align: left;
-		font-size: 1.5rem;
+	section:not(.timelineSection, .welcome) > h1 {
+		padding-top: 13rem;
+		text-align: center;
+		font-size: 3rem;
 		margin: 1.5rem 0;
 	}
 }

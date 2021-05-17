@@ -1,6 +1,14 @@
 {
     "entries": [
         {
+            "id": "2",
+            "title": "Hostelería, la incomprendida",
+            "intro": "... Han trabajado en varios restaurantes, hoteles o bares, sujetos a horarios perros, a mostrar una sonrisa infinita, a la estacionalidad, a jefes duros, a salarios insuficientes, a clientes cada vez más exigentes, con menos disposición a valorar y pagar por el servicio...",
+            "file": "hospitality.md",
+            "img": "skyline.jpg",
+            "date": "18 de Mayo de 2021"
+        },
+        {
             "id": "1",
             "title": "Cargando la maleta",
             "intro": "... Sin embargo, el contenedor más relevante no es la maleta física, sino nuestro cuerpo y mente, y el contenido más pesado no es la ropa, ni el calzado, sino paradójicamente aquello que no pesa físicamente, como las ausencias, los fantasmas...",
