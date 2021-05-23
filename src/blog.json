@@ -1,6 +1,14 @@
 {
     "entries": [
         {
+            "id": "3",
+            "title": "Pinta tu aldea, y pintarás el mundo",
+            "intro": "... Escuché la cita ayer de noche, en una entrevista a Javier Cercas. 'Pinta tu aldea, y pintarás el mundo', atribuída a Tolstoi. Y lamenté que, a punto de cumplir 32 primaveras, no la hubiese escuchado antes...",
+            "file": "tolstoi.md",
+            "img": "tolstoi2.jpg",
+            "date": "25 de Mayo de 2021"
+        },
+        {
             "id": "2",
             "title": "Hostelería, la incomprendida",
             "intro": "... Han trabajado en varios restaurantes, hoteles o bares, sujetos a horarios perros, a mostrar una sonrisa infinita, a la estacionalidad, a jefes duros, a salarios insuficientes, a clientes cada vez más exigentes, con menos disposición a valorar y pagar por el servicio...",
