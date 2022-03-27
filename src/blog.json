@@ -1,6 +1,22 @@
 {
     "entries": [
         {
+            "id": "5",
+            "title": "La ruta hacia el desastre",
+            "intro": "... Obviamente, al igual que en todas las profesiones, hay de todo. Nada nuevo bajo el sol. Sin embargo, con la que está cayendo, sería oportuno hacer una serie de consideraciones. Sería apropiado....",
+            "file": "camion.md",
+            "img": "camion.png",
+            "date": "27 de Mayo de 2022"
+        },
+        {
+            "id": "4",
+            "title": "Comenzando el año",
+            "intro": "... El haber superado todas y cada una de estas adversidades nos ha hecho más grandes, y merece la total admiración. Y el hecho de no poder o simplemente no querer hacerlo, merece el más absoluto respeto. No obstante, el tratar de suprimir costes y buscar atajos para alcanzar el éxito nos hace menos grandes....",
+            "file": "2021.md",
+            "img": "2021.jpeg",
+            "date": "01 de Enero de 2022"
+        },
+        {
             "id": "3",
             "title": "Pinta tu aldea, y pintarás el mundo",
             "intro": "... Escuché la cita ayer de noche, en una entrevista a Javier Cercas. 'Pinta tu aldea, y pintarás el mundo', atribuída a Tolstoi. Y lamenté que, a punto de cumplir 32 primaveras, no la hubiese escuchado antes...",

@@ -821,10 +821,47 @@ section:not(.timelineSection, .welcome) > p {
 	margin: 1.5rem 0;
 }
 
-section:not(.timelineSection, .welcome) > :last-child {
+section:not(.timelineSection, .welcome) > :last-child p  img {
+	width: auto;
+	max-width: 100%;
+
+}
+
+section:not(.timelineSection, .welcome) > :last-child h1{
 	margin-top: 5rem;
 	text-align: center;
 }
+
+
+section:not(.timelineSection, .welcome) > :last-child {
+	margin-top: 5rem;
+	text-align: left;
+}
+
+section:not(.timelineSection, .welcome) > :last-child  p {
+	margin-top: 1rem;
+}
+
+section:not(.timelineSection, .welcome) > :last-child  p:last-child {
+	text-align: center;
+	margin-top: 2rem;
+}
+
+section:not(.timelineSection, .welcome) > :last-child  a:last-child {
+		border-radius: 20% / 50%;
+		padding: 1rem;
+		background-color: darkslategray ;
+		color: white;
+		text-decoration: none;
+		font-weight: bold;
+		border: 0;
+}
+
+section:not(.timelineSection, .welcome) > :last-child  a:last-child:hover{
+	background-color: goldenrod ;
+	color: white;
+}
+
 
 section:not(.timelineSection, .welcome) > :nth-child(0n + 2) {
 	text-align: center;
@@ -834,6 +871,8 @@ section:not(.timelineSection, .welcome) > :nth-child(0n + 2) {
 em {
 	display: block;
 	font-size: 1rem;
+	text-align: center;
+	margin-bottom: 3rem
 }
 
 section:not(.timelineSection, .welcome) > p > a {
@@ -1071,7 +1110,7 @@ section:not(.timelineSection, .welcome) > p > img {
 
 	section:not(.timelineSection, .welcome) > h1 {
 		padding-top: 13rem;
-		text-align: center;
+		text-align: left;
 		font-size: 3rem;
 		margin: 1.5rem 0;
 	}
