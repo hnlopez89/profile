@@ -828,10 +828,6 @@ section:not(.timelineSection, .welcome) > :last-child {
 	text-align: left;
 }
 
-section:not(.timelineSection, .welcome) > :last-child  p:first-child {
-	text-align: center;
-}
-
 section:not(.timelineSection, .welcome) > :last-child p  img {
 	width: auto;
 	max-width: 100%;
@@ -845,6 +841,10 @@ section:not(.timelineSection, .welcome) > :last-child h1{
 
 section:not(.timelineSection, .welcome) > :last-child  p {
 	margin-top: 1rem;
+}
+
+section:not(.timelineSection,.welcome)>:last-child p:nth-child(2) {
+	text-align: center;
 }
 
 section:not(.timelineSection, .welcome) > :last-child  p:last-child {
