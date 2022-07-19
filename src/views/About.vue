@@ -33,7 +33,7 @@
         <img class="tools" src="../assets/icons/html5_logo.png" />
         <img class="tools" src="../assets/icons/css3.png" />
         <img class="tools" id="js" src="../assets/icons/js.png" />
-        <img class="tools" src="../assets/icons/c#.png" />
+        <img class="tools" src="../assets/icons/c.png" />
         <img class="tools" src="../assets/icons/vuejs.png" />
         <img class="tools" id="node" src="../assets/icons/nodejs-plain.svg" />
         <img class="tools" src="../assets/icons/sql.png" />
