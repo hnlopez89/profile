@@ -18,7 +18,7 @@
           <p>Confío ciegamente en que estas experiencias e inquietudes unidas a mi capacidad de sacrificio y adaptación
             me ayudarán a superar unos retos todavía por definir.</p>
               <div class="father" id="links">
-              <a id="email" target="_blank" href="https://drive.google.com/file/d/1AHEhs-x1_2btkXdEiOm4JSulYMoD8iZC/view?usp=sharing">
+              <a id="email" target="_blank" href="https://drive.google.com/file/d/16MeKwGPesxVad_vWRXHda1gsoy3VAPOW/view?usp=sharing">
                   Descargar CV
               </a>
               <a id="email" target="_blank" href="mailto:hnlopez89@gmail.com?Subject=Contacto%20Tempo%20">
@@ -33,9 +33,11 @@
         <img class="tools" src="../assets/icons/html5_logo.png" />
         <img class="tools" src="../assets/icons/css3.png" />
         <img class="tools" id="js" src="../assets/icons/js.png" />
+        <img class="tools" src="../assets/icons/c#.png" />
         <img class="tools" src="../assets/icons/vuejs.png" />
         <img class="tools" id="node" src="../assets/icons/nodejs-plain.svg" />
         <img class="tools" src="../assets/icons/sql.png" />
+        <img class="tools" src="../assets/icons/sql2.png" />
       </div>
 
 

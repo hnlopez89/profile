@@ -83,6 +83,25 @@
         "experiences": [
             {
                 "id": "1",
+                "category": "experience",
+                "title": "Programador Junior",
+                "location": "Barcelona",
+                "date": "Julio 2021 - Actualmente",
+                "description": "Desarrollo de soluciones inteligentes en software de gestión de almacenes automáticos y manuales",                
+                "tasks": [
+                    "Desarrollo personalizado en software de gestión de almacenes en base a la necesidad del cliente",
+                    "Integración y conexión con ERP",
+                    "Testeos unitarios y masivos de desarrollos",
+                    "Puesta en marcha de proyecto desarrollado en destino, mayoritariamente en mercado francés",
+                    "Documentación de proyectos"
+                ],
+                "company": "Mecalux",
+                "technologies": [
+                    "c#.png",
+                    "sql2.png"
+                ]
+            },            {
+                "id": "2",
                 "category": "project",
                 "title": "Mi página web personal",
                 "location": "https://hugotechandtravel.netlify.app/",
@@ -99,11 +118,11 @@
                 ]
             },
             {
-                "id": "2",
+                "id": "3",
                 "category": "experience",
                 "title": "Profesor Auxiliar de programación web",
                 "location": "Vigo",
-                "date": "Noviembre 2020 - Actualmente",
+                "date": "Noviembre 2020 - Junio 2021",
                 "description": "Participación de forma activa y proactiva en el correcto aprendizaje de programación web por parte de los alumnos",
                 "tasks":[
                     "Proposición de ejercicios para certificar conocimientos",
@@ -118,7 +137,7 @@
                 ]
             },
             {
-                "id": "3",
+                "id": "4",
                 "category": "project",
                 "title": "Tempo",
                 "date": "Junio 2020 - Septiembre 2020",
@@ -144,7 +163,7 @@
                 ]
             },
             {
-                "id": "4",
+                "id": "5",
                 "category": "academic",
                 "title": "Bootcamp de programación web full stack",
                 "location": "A Coruña",
@@ -153,14 +172,14 @@
 
             },
             {
-                "id": "5",
+                "id": "6",
                 "category": "academic",
                 "title": "MBA Administración y dirección de empresas",
                 "date": "Febrero 2020 - Junio 2021",
                 "company": "EAE Business School de Barcelona"
             },
             {
-                "id": "6",
+                "id": "7",
                 "category": "experience",
                 "title": "Director de Aparthotel Ferrer Skyline****",
                 "location": "Ciutadella de Menorca",
@@ -183,7 +202,7 @@
                 ]
             },
             {
-                "id": "7",
+                "id": "8",
                 "category": "experience",
                 "title": "Subdirector de Hotel en RIU Tikida Palace *****",
                 "location": "Agadir",
@@ -206,7 +225,7 @@
                 ]
             },
             {
-                "id": "8",
+                "id": "9",
                 "category": "experience",
                 "title": "Revenue Manager en IBB Hotels Collection",
                 "location": "Malta",
@@ -227,7 +246,7 @@
                 ]
             },
             {
-                "id": "9",
+                "id": "10",
                 "category": "experience",
                 "title": "Director de Hotel en IBB Paradis Blau ***",
                 "location": "Cala en Porter - Menorca",
