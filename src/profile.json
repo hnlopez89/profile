@@ -99,6 +99,11 @@
                 "coordenadas": "39.99709190915876, 3.826813530685045",
                 "pictures": [
                     "picture1"
+                ],
+                "technologies": [
+                    "html5_logo.png",
+                    "css3.png",
+                    "vuejs.png"
                 ]
             },            {
                 "id": "2",
