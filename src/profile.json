@@ -96,9 +96,9 @@
                     "Documentación de proyectos"
                 ],
                 "company": "Mecalux",
-                "technologies": [
-                    "c#.png",
-                    "sql2.png"
+                "coordenadas": "39.99709190915876, 3.826813530685045",
+                "pictures": [
+                    "picture1"
                 ]
             },            {
                 "id": "2",
