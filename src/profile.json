@@ -101,12 +101,11 @@
                     "picture1"
                 ],
                 "technologies": [
-                    "html5_logo.png",
-                    "css3.png",
-                    "vuejs.png"
+                    "c.png",
+                    "sql2.png"
                 ]
-            },            {
-                "id": "2",
+                },            {
+                    "id": "2",
                 "category": "project",
                 "title": "Mi página web personal",
                 "location": "https://hugotechandtravel.netlify.app/",
@@ -117,8 +116,9 @@
                     "Informar sobre los diferentes proyectos realizados"
                 ],
                 "technologies": [
-                    "c.png",
-                    "sql2.png"
+                    "html5_logo.png",
+                    "css3.png",
+                    "vuejs.png"
                 ]
             },
             {
