@@ -831,6 +831,8 @@ section:not(.timelineSection, .welcome) > :last-child {
 section:not(.timelineSection, .welcome) > :last-child p  img {
 	width: auto;
 	max-width: 100%;
+	display: block;
+	margin: 1rem auto;
 
 }
 
