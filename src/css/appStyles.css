@@ -1120,7 +1120,9 @@ section:not(.timelineSection, .welcome) > p > img {
 		text-align: left;
 		font-size: 3rem;
 		margin: 1.5rem 0;
+		margin-top: 7rem;
 	}
+	
 }
 
 @media (min-width: 1200px) {
