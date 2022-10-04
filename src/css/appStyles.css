@@ -1120,7 +1120,9 @@ section:not(.timelineSection, .welcome) > p > img {
 		text-align: left;
 		font-size: 3rem;
 		margin: 1.5rem 0;
-		margin-top: 7rem;
+	}
+	section:not(.timelineSection, .welcome) > :last-child h1{
+		margin-top: 10rem;
 	}
 	
 }
