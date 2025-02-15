@@ -2,7 +2,7 @@
 
 # Meu soliño
 
-![portada](../assets/blog/sarinha.jpeg "Portada")
+![portada](../assets/blog/sarinha.jpg "Portada")
 *Fuente: Sariña
 
 Meu soliño!
