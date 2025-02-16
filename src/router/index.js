@@ -46,11 +46,13 @@ const routes = [
 		name: "Blog",
 		component: () => import("../views/Blog.vue"),
 	},
-	...Blogs.entries.map((entry) => ({
+	...Blogs.entries.map((entry) => (
+		{
 		path: `/gentes_de_martes/entrada/${entry.file}`,
 		name: `${entry.file}`,
 		component: () => import(`../content/${entry.file}`),
-	})),
+		}
+	)),
 	{
 		path: "*",
 		name: "Error",

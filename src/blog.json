@@ -14,14 +14,16 @@
             "intro": "“No he querido saber, pero he sabido” que las referencias desaparecen, se desvanecen, se van antes de que uno se ubique, se encuadre. Google tiene respuestas para todo y todos, siempre que aceptemos a la superficialidad y a la frivolidad como norma.",
             "file": "jm.md",
             "img": "jm.jpg",
-            "date": "27 de Septiembre de 2022"
+            "date": "27 de Septiembre de 2022",
+            "public": "true"
         },        {
             "id": "5",
             "title": "La ruta hacia el desastre",
             "intro": "... Obviamente, al igual que en todas las profesiones, hay de todo. Nada nuevo bajo el sol. Sin embargo, con la que está cayendo, sería oportuno hacer una serie de consideraciones. Sería apropiado....",
             "file": "camion.md",
             "img": "camion.png",
-            "date": "27 de Mayo de 2022"
+            "date": "27 de Mayo de 2022",
+            "public": "true"
         },
         {
             "id": "4",
@@ -29,7 +31,8 @@
             "intro": "... El haber superado todas y cada una de estas adversidades nos ha hecho más grandes, y merece la total admiración. Y el hecho de no poder o simplemente no querer hacerlo, merece el más absoluto respeto. No obstante, el tratar de suprimir costes y buscar atajos para alcanzar el éxito nos hace menos grandes....",
             "file": "2021.md",
             "img": "2021.jpeg",
-            "date": "01 de Enero de 2022"
+            "date": "01 de Enero de 2022",
+            "public": "true"
         },
         {
             "id": "3",
@@ -37,7 +40,8 @@
             "intro": "... Escuché la cita ayer de noche, en una entrevista a Javier Cercas. 'Pinta tu aldea, y pintarás el mundo', atribuída a Tolstoi. Y lamenté que, a punto de cumplir 32 primaveras, no la hubiese escuchado antes...",
             "file": "tolstoi.md",
             "img": "tolstoi2.jpg",
-            "date": "25 de Mayo de 2021"
+            "date": "25 de Mayo de 2021",
+            "public": "true"
         },
         {
             "id": "2",
@@ -45,7 +49,8 @@
             "intro": "... Han trabajado en varios restaurantes, hoteles o bares, sujetos a horarios perros, a mostrar una sonrisa infinita, a la estacionalidad, a jefes duros, a salarios insuficientes, a clientes cada vez más exigentes, con menos disposición a valorar y pagar por el servicio...",
             "file": "hospitality.md",
             "img": "skyline.jpg",
-            "date": "18 de Mayo de 2021"
+            "date": "18 de Mayo de 2021",
+            "public": "true"
         },
         {
             "id": "1",
@@ -53,7 +58,8 @@
             "intro": "... Sin embargo, el contenedor más relevante no es la maleta física, sino nuestro cuerpo y mente, y el contenido más pesado no es la ropa, ni el calzado, sino paradójicamente aquello que no pesa físicamente, como las ausencias, los fantasmas...",
             "file": "first.md",
             "img": "emigrante.jpg",
-            "date": "11 de Mayo de 2021"
+            "date": "11 de Mayo de 2021",
+            "public": "true"
         }
     ]
 }
